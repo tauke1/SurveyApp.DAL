@@ -22,7 +22,7 @@
   {
     "id": 5,
     "name": "greaterValueIsBetter",
-    "inputTypeId": 3 // integer
+    "inputTypeId": 1 // boolean
   },
   {
     "id": 6,
