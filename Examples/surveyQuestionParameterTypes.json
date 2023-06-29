@@ -12,12 +12,12 @@
   {
     "id": 3,
     "name": "minValueDescription",
-    "inputTypeId": 3 // string
+    "inputTypeId": 2 // string
   },
   {
     "id": 4,
     "name": "maxValueDescription",
-    "inputTypeId": 3 // string
+    "inputTypeId": 2 // string
   },
   {
     "id": 5,
