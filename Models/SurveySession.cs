@@ -14,7 +14,7 @@ namespace SurveyApp.DAL.Models
         public string PersonFullName { get; set; }
         public string PersonPhoneNumber { get; set; }
         public string PersonEmail { get; set; }
-        public DateTime CreatedAt { get; set; }
+        public DateTime StartedAt { get; set; }
         public DateTime CompletedAt { get; set; }
     }
 }
