@@ -1,0 +1,59 @@
+{
+  "title": "Опрос от компании Red Marines",
+  "description": "Мы стремимся обеспечить высокий уровень сервиса нашим партнерам, и будем благодарны, если вы поделитесь с нами вашими впечатлениями от сотрудничества с Marine Health!",
+  "comment": "Заполнение опроса займет у вас не более 5 минут\nСпасибо за сотрудничество!",
+  "slug": "red-marines-2023-survey",
+  "isActive": true,
+  "startDate": "2023-06-25T00:00:00.000Z",
+  "endDate": "2023-07-25T23:59:59.999Z",
+  "questions": [
+    {
+      "order": 1, 
+      "text": "Вы бы порекомендовали Marine Health своим друзьям / членам семьи / коллегам?",
+      "required": false,
+      "askForExplanation": true,
+      "customExplanationQuestionText": "Расскажите, пожалуйста, почему вы поставили такую оценку",
+      "patternId": 1, // scale
+      "parameters": [
+        {
+          "value": "0",
+          "parameterTypeId": 1 // min value
+        },
+        {
+          "value": "10",
+          "parameterTypeId": 2 // max value
+        },
+        {
+          "value": "Точно не порекомендовали",
+          "parameterTypeId": 3 // min value description
+        },
+        {
+          "value": "Точно порекомендовали",
+          "parameterTypeId": 4 // max value description
+        },
+        {
+          "value": "true",
+          "parameterTypeId": 5 // greater value is better 
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "required": false,
+      "text": "Порекомендуйте одну область, которую необходимо улучшить для улучшения общего впечатления от сервиса в Marine Health",
+      "patternId": 2, // text
+      "parameters": [
+        {
+          "value": "512",
+          "parameterTypeId": 6 // max length
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "required": false,
+      "text": "Хотели бы вы, чтобы при необходимости мы связались с вами, чтобы обсудить ваши отзывы более подробно?",
+      "patternId": 3 // checkbox
+    }
+  ]
+}

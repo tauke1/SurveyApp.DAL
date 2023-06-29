@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "minValue",
+    "inputTypeId": 3 // integer
+  },
+  {
+    "id": 2,
+    "name": "maxValue",
+    "inputTypeId": 3 // integer
+  },
+  {
+    "id": 3,
+    "name": "minValueDescription",
+    "inputTypeId": 3 // string
+  },
+  {
+    "id": 4,
+    "name": "maxValueDescription",
+    "inputTypeId": 3 // string
+  },
+  {
+    "id": 5,
+    "name": "greaterValueIsBetter",
+    "inputTypeId": 3 // integer
+  },
+  {
+    "id": 6,
+    "name": "maxLength",
+    "inputTypeId": 2 // integer
+  }
+]

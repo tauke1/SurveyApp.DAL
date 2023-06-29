@@ -1,0 +1,17 @@
+﻿[
+  {
+    "id": 1,
+    "name": "boolean",
+    "description": "Boolean value true/false" 
+  },
+  {
+    "id": 2,
+    "name": "string",
+    "description": "String value i.e any text" 
+  },
+  {
+    "id": 3,
+    "name": "integer",
+    "description": "Int32 value from -2147483648 to 2147483647"
+  }
+]

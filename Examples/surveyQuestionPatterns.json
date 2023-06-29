@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "name": "scale",
+    "description": "pattern based on accepting integer value limited by min and max values",
+    "inputTypeId": 3, // input
+    "requiredParameters": [
+      {
+        "id": 1,
+        "parameterId": 1 // min value 
+      },
+      {
+        "id": 2,
+        "parameterId": 2 // max value 
+      },
+      {
+        "id": 3,
+        "parameterId": 3 // min value description 
+      },
+      {
+        "id": 4,
+        "parameterId": 4 // max value description 
+      },
+      {
+        "id": 5,
+        "parameterId": 5 // greater value is better 
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "text",
+    "description": "pattern based on accepting string value",
+    "inputTypeId": 2, // string
+    "requiredParameters": [
+      {
+        "id": 6,
+        "parameterId": 6 // max length 
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "checkbox",
+    "description": "pattern based on accepting boolean value",
+    "inputTypeId": 1 // boolean
+  }
+]
